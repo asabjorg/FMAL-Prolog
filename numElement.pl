@@ -1,2 +1,2 @@
 numElements(0,[]).
-numElements(C,[H|T]) :- size(T,C1), C is C1 + 1.
+numElements(COUNT,[_|L]):- numElements(COUNT1, L), COUNT is COUNT1+1.

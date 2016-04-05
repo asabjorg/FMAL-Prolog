@@ -1,0 +1,2 @@
+insertElementAt(elem,[H|List],Pos,[H|Res]):- Pos1 is Pos - 1, insertElementAt(elem,List,Pos1,Res). 
+insertElementAt(elem, List, 1, [elem|List]).

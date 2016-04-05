@@ -1,0 +1,6 @@
+fun merge([],M) = M
+| merge(L,[ ]) = L
+| merge(x::xt, y::yt) =
+if (x<y) then x::merge(xt,y::yt)
+else y::merge(x::xt,yt);
+

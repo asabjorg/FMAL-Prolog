@@ -1,6 +1,6 @@
 
 
-a) Facts:
+%a) Facts:
 
 affair(steve, jane).
 affair(steve, mary).
@@ -14,7 +14,7 @@ greedy(john).
 hatred(M,N):- affair(M,X), married(N,X).
 greed(M,N):- rich(M), greedy(N).
 
-willingToKill :- hatred(M,N); greed(M,N).
+willingToKill(N) :- hatred(M,N); greed(M,N).
 
 /*
 b) Possible suspects:
