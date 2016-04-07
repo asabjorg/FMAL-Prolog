@@ -22,7 +22,7 @@ John and Tom
 
 c) Fact to add:
 We would need to know if: rich(John)
-We would also add \+(rich(N)) to the fact greed so that a person needs to be greedy but not rich to become a suspect.
+We would add \+(rich(N)) to the fact greed so that a person needs to be greedy but not rich to become a suspect.
 So we would know if John was a possible suspects.
 If rich(John) then he is not possible suspect.
 */
